@@ -1,0 +1,91 @@
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background: bisque;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px;
+   color: #10131C;
+}
+
+h1{
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 55px;
+   margin-top: 10px;
+   margin-bottom: 0;
+}
+
+hr{
+   height: 2px;
+   border-width: 0;
+   background-color: #10131C;
+   margin-bottom: 40px;
+}
+
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: url(images/background.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.card{
+   background: linear-gradient(#e9b061, #C17B31);
+   position: absolute;
+   top: 50%;
+   left: 70%;
+   transform: translate(-35%, -50%);
+
+   width: 23%;
+   padding: 50px 70px;
+   border: 3px solid #F1B96C;
+   border-radius: 10px;
+   /* box-shadow: 15px 15px #10131C; */
+}
+
+.btn{
+   width: 100%;
+   font-size: 15px;
+   
+}
+
+.btn:hover{
+   font-size: 16px;
+}
+
+.start, .newCard{
+   margin-top: 10px;
+   color: white;
+   background: #10131C;
+   padding: 10px 0px;
+   letter-spacing: 2px;
+   cursor: pointer;
+}
+
+.start:hover{
+   color: #F1B96C;
+   /* font-size: 16px; */
+}
+
+.newCard:hover{
+    color: #F1B96C;
+    /* font-size: 16px; */
+}
+
+
+#message-el{
+   color: white;
+   width: 100%;
+   background-color: #10131C;
+   padding: 10px 0px;
+   /* border-radius: 8px; */
+   margin-bottom: 28px;
+   box-shadow: 5px 5px #bb762c;
+}
+
+#cards-el, #sum-el{
+      font-weight: bold;
+     
+}
